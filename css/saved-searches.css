@@ -2,3 +2,13 @@
   list-style-type: none;
   padding: 0;
 }
+
+.saved-searches-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.saved-searches-item-city {
+  font-weight: bold;
+}
