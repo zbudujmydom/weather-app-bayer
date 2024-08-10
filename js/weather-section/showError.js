@@ -2,7 +2,6 @@ import { currentWeatherSection } from "../common/elements.js";
 
 export const showError = () => {
   const messageError = document.createElement("div");
-  //class="alert alert-danger"
 
   const p1 = document.createElement("p");
   p1.textContent = "An unexpected error has occured.";
