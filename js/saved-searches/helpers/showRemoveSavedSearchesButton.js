@@ -6,6 +6,7 @@ export const showRemoveSavedSearchesButton = () => {
   const button = document.createElement("button");
   button.type = "button";
   button.textContent = "Remove saved searches";
+  button.classList.add("btn", "btn-warning");
 
   button.addEventListener("click", () => {
     removeSavedSearches();
